@@ -1,0 +1,8 @@
+Server/bin/
+Server/Logs/
+Server/obj/
+Client/node_modules/
+/Server/.vs
+/Server/.vscode
+/Server/FabbPers.sln
+Server/appsettings.json
