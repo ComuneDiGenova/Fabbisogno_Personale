@@ -1,0 +1,82 @@
+# This repository adheres to the publiccode.yml standard by including this 
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+publiccodeYmlVersion: "0.2.1"
+
+name: Fabbisogno del Personale
+url: "https://github.com/ComuneDiGenova/Fabbisogno_Personale"
+softwareVersion: "1.0"
+releaseDate: "2023-07-26"
+platforms:
+  - web
+
+categories:
+  - hr
+
+usedBy:
+  - Come di Genova
+
+developmentStatus: stable
+
+softwareType: "standalone/web"
+
+description:
+  it:
+    genericName: Gestore di Fabbisogno del Personale
+    shortDescription: >
+          Applicazione web per facilitare la gestione del fabbisogno del personale in un ente pubblico
+
+    longDescription: >
+          L'applicazione "Fabbisogno del personale" è un'applicazione pensata per le specifiche esigenze 
+          di raccolta dati con workflow di validazione per i fabbisogni del personale.
+          La Direzione del Personale negli Enti Locali ha la necessità di saper programmare con un certo anticipo 
+          le assunzioni del personale nelle varie direzioni di cui si compone l'Ente. 
+          Lo scopo dell'applicazione è di sostituire i fogli excel che implementavano il processo di raccolta dati in questo contesto e validazione, 
+          tramite un'interfaccia web e un processo di validazione da parte dell'Ufficio Personale. 
+
+    features:
+       - Ufficio Personale
+       - HR
+       - Raccolta dati
+       - Pianificazione
+
+legal:
+  license:  EUPL-1.2
+  repoOwner: Comune di Genova
+
+maintenance:
+  type: "internal"
+
+  contacts:
+    - name: Luca Ventimiglia
+      email: lventimiglia@comune.genova.it
+
+dependsOn:
+  open:
+    - name: dotnetCore
+      versionMin: "6.0"
+      optional: No
+    - name: nodejs
+      versionMin: "14.0"
+      optional: No
+  proprietary:
+    - name: SqlServer
+      versionMin: "2009"
+      optional: No
+
+localisation:
+  availableLanguages:
+    - it
+  localisationReady: false
+
+it:
+  conforme:
+    gdpr: true
+  countryExtensionVersion: '0.2'
+  piattaforme:
+    anpr: false
+    cie: false
+    pagopa: false
+    spid: false
+  riuso:
+    codiceIPA: c_d969
