@@ -6,7 +6,7 @@ Un'applicazione web per la gestione del fabbisogno del personale delle diverse d
 
 L'applicazione "Fabbisogno del personale" è un'applicazione pensata per le specifiche esigenze di raccolta dati con workflow di validazione per i fabbisogni del personale.  
 La Direzione del Personale negli Enti Locali ha la necessità di saper programmare con un certo anticipo le assunzioni del personale nelle varie direzioni di cui si compone l'Ente. Lo scopo dell'applicazione è di sostituire i fogli excel che implementavano il processo di raccolta dati in questo contesto e validazione, tramite un'interfaccia web e un processo di validazione da parte dell'Ufficio Personale.
-![Screenshot](./screenshot.png "Fabbisogno del personale")
+![Screenshot](/screenshot.png "Fabbisogno del personale")
 
 ## Architettura e struttura del repository
 L’applicazione è composta da due componenti: 
